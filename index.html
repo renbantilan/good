@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Special Day, Habibi ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         FLOATING FLOWERS
+    ========================== -->
+
+    <div id="flowerContainer"></div>
+
+
+    <!-- =========================
+         WELCOME SCREEN
+    ========================== -->
+
+    <main id="welcomeScreen">
+
+        <div class="welcomeContent">
+
+            <div class="smallHeart">♡</div>
+
+            <div id="giftButton">
+
+                <div class="giftBox">
+                    <div class="giftRibbon"></div>
+                    <div class="giftLid"></div>
+                    <div class="giftBody"></div>
+                </div>
+
+                <div class="openText">
+                    Open Me
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         SURPRISE SCREEN
+    ========================== -->
+
+    <main id="surpriseScreen">
+
+        <div class="surpriseContent">
+
+            <h1 class="specialTitle">
+                Happy Special Day,<br>
+                <span>Habibi ❤️</span>
+            </h1>
+
+
+            <!-- CHOICES -->
+
+            <div class="choices">
+
+                <button class="choice">
+                    <span>🍫</span>
+                    <span>Chocolates</span>
+                </button>
+
+                <button class="choice">
+                    <span>💐</span>
+                    <span>Flowers</span>
+                </button>
+
+                <button class="choice">
+                    <span>🍰</span>
+                    <span>Foods</span>
+                </button>
+
+                <button class="choice">
+                    <span>❤️</span>
+                    <span>Date</span>
+                </button>
+
+            </div>
+
+
+            <!-- HER PHOTO -->
+
+            <div class="photoSection">
+
+                <div id="herPhotoButton">
+
+                    <div class="photoGlow"></div>
+
+                    <img
+                        src="images/her.jpeg"
+                        alt="My Habibi"
+                        id="herPhoto"
+                    >
+
+                </div>
+
+                <p class="photoHint">
+                    Tap me ❤️
+                </p>
+
+            </div>
+
+
+            <!-- ENVELOPE -->
+
+            <div id="envelopeButton">
+
+                <div class="envelope">
+
+                    <div class="envelopeBack"></div>
+
+                    <div class="envelopePaper">
+                        💌
+                    </div>
+
+                    <div class="envelopeFront"></div>
+
+                </div>
+
+                <p>
+                    A letter for you
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         PHOTO MESSAGE POPUP
+    ========================== -->
+
+    <div id="photoMessage">
+
+        <div class="photoMessageBox">
+
+            <div class="bigHeart">
+                ❤️
+            </div>
+
+            <h2>
+                Actually...
+            </h2>
+
+            <p>
+                You don't have to choose
+                because you deserve it all.
+            </p>
+
+            <div class="sparkleText">
+                ✨ 🍫 💐 🍰 ❤️ ✨
+            </div>
+
+            <button id="closePhotoMessage">
+                Okay, Habibi ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         LOVE LETTER
+    ========================== -->
+
+    <div id="letterScreen">
+
+        <div class="letterBackground"></div>
+
+        <div class="letterOverlay"></div>
+
+        <div class="petalContainer" id="letterPetals"></div>
+
+
+        <!-- ENVELOPE OPENING -->
+
+        <div id="envelopeAnimation">
+
+            <div class="bigEnvelope">
+
+                <div class="bigEnvelopeBack"></div>
+
+                <div class="bigEnvelopeLetter">
+                    💌
+                </div>
+
+                <div class="bigEnvelopeFlap"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- LETTER -->
+
+        <div id="letter">
+
+            <div class="letterPaper">
+
+                <div class="letterDecoration">
+                    ✿
+                </div>
+
+                <h1>
+                    My Love ❤️
+                </h1>
+
+                <div id="typedMessage"></div>
+
+                <div class="letterSignature">
+                    Forever yours,<br>
+                    <strong>Habaeboo❤️</strong>
+                </div>
+
+                <button id="closeLetter">
+                    Close Letter
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FINAL SCREEN
+    ========================== -->
+
+    <div id="finalScreen">
+
+        <div class="finalHearts">
+            ❤️ 💕 ❤️
+        </div>
+
+        <h1>
+            I Love You
+        </h1>
+
+        <h2>
+            Forever, Habibi ❤️
+        </h2>
+
+        <div class="finalFlowers">
+            🌸 🌹 🌸
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MUSIC
+    ========================== -->
+
+    <audio
+        id="backgroundMusic"
+        loop
+        preload="auto"
+    >
+        <source
+            src="music.mp3"
+            type="audio/mpeg"
+        >
+    </audio>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
